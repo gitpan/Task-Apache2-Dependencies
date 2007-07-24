@@ -1,4 +1,4 @@
-Task-Apache2-Dependencies version 0.01
+Task-Apache2-Dependencies version 0.02
 ======================================
 
 INSTALLATION
@@ -17,8 +17,6 @@ This module requires these other modules and libraries:
   none
 
 COPYRIGHT AND LICENSE
-
-Put the correct copyright and licence information here.
 
 Copyright (C) 2007 by Kevin W. Henwood
 

@@ -4,7 +4,7 @@ use 5.006;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
     
 1;         
 __END__
@@ -17,7 +17,7 @@ Task::Apache2::Dependencies - installs all non-Apache prereqs for Apache2
 
 =head1 VERSION
 
-Task::Apache2::Dependencies 0.01
+Task::Apache2::Dependencies 0.02
 
 =head1 SYNOPSIS
 
@@ -65,8 +65,6 @@ Digest::SHA1
 Digest::MD5
 
 Digest::SHA::PurePerl
-
-Apache::Constants::Exports
 
 AutoLoader
 
@@ -282,8 +280,6 @@ HTML::Template::XPath
 
 XML::SAX
 
-XML::SAX::Exception
-
 HTML::Clean
 
 Test::Iconv
@@ -322,15 +318,11 @@ DBIx::ContextualFetch
 
 Ima::DBI
 
-Clone
-
 HTML::Tested::ClassDBI
 
 YAML
 
 YAML::Syck
-
-DBIx::VersionedSchema
 
 IPC::Run
 
@@ -424,8 +416,6 @@ Digest::SHA
 
 Data::Serializer
 
-Devel::Size
-
 Safe
 
 Text::Template::Simple
@@ -455,8 +445,6 @@ File::Find::Rule::Filesys::Virtual
 HTTP::DAV
 
 HTTP::DAVServer
-
-HTTP::Webdav
 
 Params::Validate
 
@@ -525,8 +513,6 @@ Test::Spelling
 HTML::Mason
 
 Perl::Tidy
-
-Uttu
 
 Perl::WhichPhase
 
@@ -810,8 +796,6 @@ Class::InsideOut
 
 Readonly
 
-Readonly::XS
-
 FindBin::Real
 
 FindBin::libs
@@ -830,10 +814,6 @@ Cache::FastMmap
 
 Symbol::Table
 
-Class::Clone
-
-Class::Driver
-
 File::Basename::Object
 
 DBIx::Transaction
@@ -841,10 +821,6 @@ DBIx::Transaction
 CGI::Session
 
 CGI::Session::Driver
-
-Schema::RDBMS::AUS
-
-DBIx::Migration::Directories
 
 BitTorrent
 
@@ -861,10 +837,6 @@ Time::HiRes
 Sys::Hostname::Long
 
 File::Tail
-
-CGI::Apache2::Wrapper
-
-Mail::Sendmail
 
 Digest::CRC
 
@@ -927,8 +899,6 @@ Lingua::StopWords
 XML::SAX::ExpatXS
 
 Pod::Xhtml
-
-MogileFS::Sys
 
 MogileFS::Client::SiteMap
 

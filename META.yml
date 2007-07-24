@@ -19,7 +19,6 @@ no_index:
 requires: 
   AI::Categorizer: 0
   Algorithm::Dependency: 0
-  Apache::Constants::Exports: 0
   Apache::DBI: 0
   AppConfig: 0
   Archive::Any: 0
@@ -35,7 +34,6 @@ requires:
   BitTorrent: 0
   CGI: 0
   CGI::Ajax: 0
-  CGI::Apache2::Wrapper: 0
   CGI::Cookie: 0
   CGI::Minimal: 0
   CGI::Session: 0
@@ -56,7 +54,6 @@ requires:
   Class::Accessor: 0
   Class::Autouse: 0
   Class::Bits: 0
-  Class::Clone: 0
   Class::Container: 0
   Class::DBI::AbstractSearch: 0
   Class::DBI::Loader: 0
@@ -66,7 +63,6 @@ requires:
   Class::DBI::Plugin::Type: 0
   Class::Data::Inheritable: 0
   Class::Date: 0
-  Class::Driver: 0
   Class::ErrorHandler: 0
   Class::ISA: 0
   Class::Inner: 0
@@ -79,7 +75,6 @@ requires:
   Class::Trigger: 0
   Class::Util: 0
   Class::Virtual: 0
-  Clone: 0
   Compress::LeadingBlankSpaces: 0
   Compress::Raw::Zlib: 0
   Compress::Zlib: 0
@@ -99,12 +94,9 @@ requires:
   DBD::SQLite: 0
   DBD::mysql: 0
   DBI: 0
-  DBI::BabyConnect: 0
   DBI::Const::GetInfo::ODBC: 0
   DBIx::ContextualFetch: 0
-  DBIx::Migration::Directories: 0
   DBIx::Transaction: 0
-  DBIx::VersionedSchema: 0
   DB_File: 0
   DB_File::Lock: 0
   Data::ClearSilver::HDF: 0
@@ -124,7 +116,6 @@ requires:
   DateTime::Locale: 0
   DateTime::TimeZone: 0
   Devel::DProf: 0
-  Devel::Size: 0
   Devel::StackTrace: 0
   Devel::Symdump: 0
   Digest: 0
@@ -203,7 +194,6 @@ requires:
   HTML::WWWTheme: 0
   HTTP::DAV: 0
   HTTP::DAVServer: 0
-  HTTP::Webdav: 0
   HTTPD::UserAdmin: 0
   Heap: 0
   Hook::LexWrap: 0
@@ -274,7 +264,6 @@ requires:
   Mail::Header: 0
   Mail::Internet: 0
   Mail::Mailer: 0
-  Mail::Sendmail: 0
   Math::Base85: 0
   Math::BigInt: 0
   Math::BigInt::FastCalc: 0
@@ -292,7 +281,6 @@ requires:
   Modwheel: 0
   MogileFS::Client: 0
   MogileFS::Client::FilePaths: 0
-  MogileFS::Sys: 0
   Net::BitTorrent::File: 0
   Net::BitTorrent::PeerPacket: 0
   Net::Cmd: 0
@@ -341,7 +329,6 @@ requires:
   Pod::Xhtml: 0
   Rcs: 0
   Readonly: 0
-  Readonly::XS: 0
   Regexp::MultiLanguage::PHP: 0
   ResourcePool: 0
   ResourcePool::Resource::DBI: 0
@@ -355,7 +342,6 @@ requires:
   SQL::Statement::Functions: 0
   Safe: 0
   Scalar::Util: 0
-  Schema::RDBMS::AUS: 0
   Servlet: 0
   Socket6: 0
   Sort::Versions: 0
@@ -435,7 +421,6 @@ requires:
   URI::Find: 0
   URI::Find::Simple: 0
   Unicode::String: 0
-  Uttu: 0
   WWW::Google::SiteMap: 0
   WWW::Mechanize: 0
   WeakRef: 0
@@ -453,7 +438,6 @@ requires:
   XML::RegExp: 0
   XML::SAX: 0
   XML::SAX::Base: 0
-  XML::SAX::Exception: 0
   XML::SAX::ExpatXS: 0
   XML::SAX::Writer: 0
   XML::Sablotron: 0
@@ -470,4 +454,4 @@ requires:
   namespace::clean: 0
   perl: 5.6.0
   version: 0
-version: 0.01
+version: 0.02
